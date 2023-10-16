@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require ('mongoose');
-const mongodbRoute = "mongodb://localhost:27017/E4P1";
+const mongodbRoute = "mongodb+srv://asier1:123@cluster0.xzeyvbx.mongodb.net/E4P1?retryWrites=true&w=majority";
 
 const workoutRouter = require("./src/routes/workoutRoutes");
 

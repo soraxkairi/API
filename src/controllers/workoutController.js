@@ -59,7 +59,7 @@ const createNewWorkout = async (req,res) => {
     const{body} = req;
     if(
         !body.name ||
-        !body-mode ||
+        !body.mode ||
         !body.equipment
     ){
         res
